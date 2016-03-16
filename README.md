@@ -21,6 +21,8 @@ to the require section of your `composer.json` file.
 
 ## Usage
 
+This plugin assumes you are using [shershennm/yii2-sendgrid](https://github.com/shershennm/yii2-sendgrid)
+
 Once the extension is installed, simply modify your application configuration as follows:
 
 ```php
@@ -57,7 +59,7 @@ return [
 ];
 ```
 
-You can then generate links to `/unsubscribe/?email={email}&group={id/key}
+You can then generate links to `/unsubscribe/?email={email}&group={id/key}`
 
 ```php
 Url::to(['/unsubscribe', 'email' => $email, 'group' => $group], true);
