@@ -1,0 +1,21 @@
+{
+	"name": "ethercreative/yii2-sendgrid-unsubscribe",
+	"description": "A Yii2 module to easily provide public unsubscribe urls with suppression group support.",
+	"type": "yii2-module",
+	"keywords": ["yii2", "module", "sendgrid"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Matt Edmonston",
+			"email": "matt@ethercreative.co.uk"
+		}
+	],
+	"require": {
+		"shershennm/yii2-sendgrid": "2.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"ethercreative\\unsubscribe\\": ""
+		}
+	}
+}
